@@ -24,15 +24,17 @@ function efectoHabilidades() {
         habilidades[0].classList.add("javascript");
         habilidades[1].classList.add("angular");
         habilidades[2].classList.add("react");
-        habilidades[3].classList.add("htmlcss");
-        habilidades[4].classList.add("scss");
-        habilidades[5].classList.add("bootstrap");
-        habilidades[6].classList.add("tailwind");
-        habilidades[7].classList.add("comunicacion");
-        habilidades[8].classList.add("trabajo");
-        habilidades[9].classList.add("creatividad");
-        habilidades[10].classList.add("dedicacion");
-        habilidades[11].classList.add("ingles");
+        habilidades[3].classList.add("firebase");
+        habilidades[4].classList.add("htmlcss");
+        habilidades[5].classList.add("scss");
+        habilidades[6].classList.add("bootstrap");
+        habilidades[7].classList.add("angular-material");
+        habilidades[8].classList.add("tailwind");
+        habilidades[9].classList.add("comunicacion");
+        habilidades[10].classList.add("trabajo");
+        habilidades[11].classList.add("creatividad");
+        habilidades[12].classList.add("dedicacion");
+        habilidades[13].classList.add("ingles");
     }
 }
 

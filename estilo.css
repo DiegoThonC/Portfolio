@@ -327,7 +327,7 @@ html {
     }
 
     100% {
-        width: 50%;
+        width: 65%;
     }
 }
 
@@ -342,7 +342,7 @@ html {
     }
 
     100% {
-        width: 65%;
+        width: 70%;
     }
 }
 
@@ -361,6 +361,21 @@ html {
     }
 }
 
+.skills .skill .firebase {
+    width: 0%;
+    animation: 2s firebase forwards;
+}
+
+@keyframes firebase {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 15%;
+    }
+}
+
 .skills .skill .htmlcss {
     width: 0%;
     animation: 2s htmlcss forwards;
@@ -372,7 +387,7 @@ html {
     }
 
     100% {
-        width: 55%;
+        width: 70%;
     }
 }
 
@@ -403,6 +418,21 @@ html {
 
     100% {
         width: 70%;
+    }
+}
+
+.skills .skill .angular-material {
+    width: 0%;
+    animation: 2s angular-material forwards;
+}
+
+@keyframes angular-material {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
     }
 }
 
