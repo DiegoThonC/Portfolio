@@ -620,13 +620,6 @@ html {
     margin: auto;
 }
 
-.contacto h2 {
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;
-}
-
 .contacto .fila {
     display: flex;
 }
