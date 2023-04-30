@@ -179,7 +179,7 @@ html {
 .sobremi .fila .col ul li strong {
     display: inline-block;
     color: #1CB698;
-    width: 130px;
+    width: 120px;
 }
 
 .sobremi .fila .col ul li span {
@@ -736,6 +736,14 @@ footer .arriba {
         width: fit-content;
     }
 
+    .sobremi .fila .col.intereses {
+        margin-top: 25px;
+    }
+
+    .sobremi .fila .col ul li strong {
+        width: 78px;
+    }
+
     .skills .fila {
         display: block;
     }
@@ -759,6 +767,14 @@ footer .arriba {
 
     .portfolio .galeria .proyecto img {
         width: 100%;
+    }
+
+    .portfolio .galeria .proyecto .overlay p {
+        display: none;
+    }
+    
+    .portfolio .galeria .proyecto .overlay .tooling img {
+        width: 30%;
     }
 
     .contacto .fila {
