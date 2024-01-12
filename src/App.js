@@ -8,6 +8,9 @@ import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
+
+  document.title = "Hey There, I'm Diego";
+
   return (
     <>
       <Header />
