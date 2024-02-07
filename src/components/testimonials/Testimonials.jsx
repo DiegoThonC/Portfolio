@@ -1,4 +1,5 @@
 import './Testimonials.css';
+import { useState, useEffect } from 'react';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
@@ -10,6 +11,21 @@ import Oleksandra from '../../assets/oleksandra.jpg';
 import Empty from '../../assets/empty-photo.webp';
 
 const Testimonials = () => {
+
+  const [screenWidth, setScreenWidth] = useState(getCurrentDimension());
+
+  function getCurrentDimension() {
+    return {
+      width: window.innerWidth,
+    };
+  }
+
+  useEffect(() => {
+    const updateDimension = () => setScreenWidth(getCurrentDimension());
+    window.addEventListener("resize", updateDimension);
+    return () => window.removeEventListener("resize", updateDimension);
+  }, [screenWidth]);
+
   return (
     <section id="testimonials">
       <h5>Review from Clients</h5>
@@ -20,7 +36,7 @@ const Testimonials = () => {
         modules={[Pagination]}
         autoplay={true}
         spaceBetween={40}
-        slidesPerView={2}
+        slidesPerView={screenWidth.width < 992 ? 1 : 2}
         pagination={{ clickable: true }}
       >
         <SwiperSlide className="testimonial">
