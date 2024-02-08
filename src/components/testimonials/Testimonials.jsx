@@ -77,16 +77,12 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={Oleksandra} alt="Avatar one" />
           </div>
-          <h5>Oleksandra Buzko (Director of the Scientific Archive of the Institute of Archaeology at the National Academy of Sciences of Ukraine)</h5>
+          <h5>Oleksandra Buzko (Director of the Scientific Archive of the Institute of Archaeology at the 
+            National Academy of Sciences of Ukraine)</h5>
           <small className="client__review">
-            Diego is a highly professional and self-taught developer, with the
-            ability to adapt to new technologies and initiatives, and a strong
-            willingness to continue growing as a Software Engineer. I had the
-            pleasure of working with him as a frontend developer, using
-            frameworks such as Angular, React, Bootstrap, as well as
-            implementing components directly in HTML and CSS. It was a pleasure
-            to collaborate with him on projects that provided significant value
-            to the client and users.
+            Diego is a great frontend developer. He is responsible, thorough, attentive to detail, and respects deadlines, 
+            always being in the zone of accessibility. He has a good sense of humor and fits well within the team. It was pleasant 
+            and comfortable to work with him!
           </small>
         </SwiperSlide>
       </Swiper>
